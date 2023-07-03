@@ -26,4 +26,4 @@ def pascal_triangle(n):
                 """ diagonal set to 1 "then append """
                 pascal[li].append(1)
 
-	return pascal
+    return pascal
