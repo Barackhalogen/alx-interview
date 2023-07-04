@@ -22,8 +22,8 @@ def pascal_triangle(n):
                     pascal[li].append(1)
                 else:
                     pascal[li].append(pascal[li-1][col] + pascal[li-1][col-1])
-            elif(col == li):
-                """ diagonal set to 1 "then append """
+            else(col == li):
+                """ diagonal set to 1, then append """
                 pascal[li].append(1)
 
     return pascal
