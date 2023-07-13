@@ -11,9 +11,9 @@
 
 
 def minOperations(n):
-    '''
+    """
     returns the minimum operations to get n H's
-    '''
+    """
     min_operations = 0
 
     if n <= 1:
